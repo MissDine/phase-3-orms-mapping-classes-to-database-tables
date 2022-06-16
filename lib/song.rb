@@ -38,7 +38,7 @@ class Song
 
   def self.create(name:, album:)
     song = Song.new(name: name, album: album)
-    song.save
+    songsave
   end
 
 end
